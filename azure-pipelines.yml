@@ -40,7 +40,7 @@ stages:
         zipAfterPublish: true  
     - task: PublishBuildArtifacts@1
       inputs:
-      pathtoPublish: '$(Build.ArtifactStagingDirectory)'
-      artifactName: 'drop'
-      publishLocation: 'Container'
+       pathtoPublish: '$(Build.ArtifactStagingDirectory)'
+       artifactName: 'drop'
+       publishLocation: 'Container'
   
